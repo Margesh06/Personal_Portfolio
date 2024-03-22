@@ -30,7 +30,7 @@ function Home() {
               </div>
             </Col>
 
-            {/* <Col md={5} style={{ paddingBottom: 20 }}>
+            <Col md={5} style={{ paddingBottom: 20 }}>
               <img
                 src={photo}
                 alt="home pic"
@@ -39,9 +39,9 @@ function Home() {
                 
               />
               
-            </Col> */}
+            </Col>
             <Col md={5} style={{ paddingBottom: 20 }}>
-  <img
+  {/* <img
     src={photo}
     alt="home pic"
     className="img-fluid"
@@ -53,9 +53,9 @@ function Home() {
       top: "40px",
       right: "0",
     }}
-  />
+  /> */}
   <style>
-    {`
+    {/* {`
       @media (min-width: 768px) {
         img {
           width: "600px";
@@ -65,7 +65,7 @@ function Home() {
           right: "200px";
         }
       }
-    `}
+    `} */}
   </style>
 </Col>
 
