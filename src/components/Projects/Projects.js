@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import stock from "../../Assets/Projects/stock.PNG";
 import derm from "../../Assets/Projects/derm.PNG";
-import win from "../../Assets/Projects/win.PNG";
+import hl from "../../Assets/Projects/hl.PNG";
 
 function Projects() {
   return (
@@ -41,13 +41,10 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={win}
+              imgPath={hl}
               isBlog={false}
-              title="Win11Lite"
-              description="Developed a Web application that seamlessly integrates entertainment and utility .It Includes classic games like Snake and Dice, a QR code generator for quick data sharing, weather updates for
-informed planning.It offers to-do list manager, and a virtual band system for musical enjoyment, offering a versatile and engaging user
-experience."
-              ghLink="https://github.com/Margesh06/Windows11_clone"           
+              title="Hostel Leave Management System"
+              description="Developed a comprehensive hostel leave management web application with separate panels for students, staff, and admins to streamline the leave process. Students submit leave requests, which are reviewed and approved by wardens, generating a QR code displayed on the student dashboard. The system ensures secure entry and exit through QR code scanning, improving efficiency and security in leave management."
             />
           </Col>
         </Row>
