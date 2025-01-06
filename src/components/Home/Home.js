@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
-import photo from "./../../Assets/p.png"
+import photo from "./../../Assets/p.png";
 
 function Home() {
   return (
@@ -11,7 +11,7 @@ function Home() {
       <Container fluid className="home-section" id="home">
         <Particle />
         <Container className="home-content">
-          <Row>
+          <Row className="align-items-center">
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
                 Hi There!{" "}
@@ -25,54 +25,24 @@ function Home() {
                 <strong className="main-name"> Margesh Modi</strong>
               </h1>
 
-              <div style={{ padding: 50, textAlign: "left"}}>
+              <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20 }}>
+            {/* Image Section */}
+            <Col md={5} className="d-flex justify-content-center align-items-center" style={{ paddingBottom: 20 }}>
               <img
                 src={photo}
                 alt="home pic"
                 className="img-fluid"
-                style={{width: "600px",height:"590px",position:"absolute",top: "40px",right: "200px"}}
-                
+                style={{
+                  maxWidth: "100%",  // Makes sure the image is responsive and adjusts to the screen size
+                  height: "auto",     // Maintains aspect ratio
+                  objectFit: "contain", // Ensures the image fits without distortion
+                }}
               />
-              
             </Col>
-            <Col md={5} style={{ paddingBottom: 20 }}>
-  {/* <img
-    src={photo}
-    alt="home pic"
-    className="img-fluid"
-    style={{
-      width: "100%",  // Set width to 100% for responsiveness
-      maxWidth: "600px", // Limit maximum width to 600px
-      height: "auto",  // Allow the height to adjust proportionally
-      position: "relative", // Change position to relative for stacking in small screens
-      top: "40px",
-      right: "0",
-    }}
-  /> */}
-  <style>
-    {/* {`
-      @media (min-width: 768px) {
-        img {
-          width: "600px";
-          height: "590px";
-          position: absolute;
-          top: "40px";
-          right: "200px";
-        }
-      }
-    `} */}
-  </style>
-</Col>
-
-            
-
-            
-
           </Row>
         </Container>
       </Container>
