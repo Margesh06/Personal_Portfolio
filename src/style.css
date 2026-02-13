@@ -637,6 +637,37 @@ button:focus {
   font-size: 0.95em;
 }
 
+@media (max-width: 767px) {
+  .experience-card {
+    padding: 20px 15px;
+  }
+
+  .experience-card h4 {
+    font-size: 1.3em !important;
+    text-align: left !important;
+  }
+
+  .experience-card h5 {
+    font-size: 1em !important;
+    text-align: left !important;
+    margin-top: 10px;
+  }
+
+  .experience-card p {
+    text-align: left !important;
+    font-size: 0.9em;
+  }
+
+  .experience-card ul {
+    padding-left: 15px !important;
+  }
+
+  .experience-card ul li {
+    font-size: 0.9em;
+    line-height: 1.6;
+  }
+}
+
 .resume {
   padding-top: 50px;
   padding-bottom: 50px;

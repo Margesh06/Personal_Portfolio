@@ -30,7 +30,7 @@ function Home() {
             </Col>
 
             {/* Image Section */}
-            <Col md={5} className="d-flex justify-content-center align-items-center" style={{ paddingBottom: 20 }}>
+            <Col md={5} className="d-none d-md-flex justify-content-center align-items-center" style={{ paddingBottom: 20 }}>
               <img
                 src={photo}
                 alt="home pic"

@@ -18,23 +18,23 @@ function ResumeNew() {
           {/* Fitpage - Software Engineer */}
           <div className="experience-card" style={{ marginBottom: "30px" }}>
             <Row>
-              <Col md={8}>
+              <Col md={8} xs={12}>
                 <h4 style={{ fontWeight: "bold", textAlign: "left" }}>Fitpage</h4>
                 <p style={{ color: "#b3b3b3", marginBottom: "5px", textAlign: "left" }}>
                   NextJS, NestJS, JavaScript, PostgreSQL
                 </p>
               </Col>
-              <Col md={4} style={{ textAlign: "right" }}>
+              <Col md={4} xs={12} className="text-md-right text-left">
                 <p style={{ color: "#b3b3b3" }}>Mumbai, Maharashtra</p>
               </Col>
             </Row>
 
             <div style={{ marginBottom: "20px" }}>
               <Row>
-                <Col md={8}>
+                <Col md={8} xs={12}>
                   <h5 style={{ fontStyle: "italic", textAlign: "left" }}>Software Engineer</h5>
                 </Col>
-                <Col md={4} style={{ textAlign: "right" }}>
+                <Col md={4} xs={12} className="text-md-right text-left">
                   <p style={{ color: "#7fbacd", fontStyle: "italic" }}>Jun 2025 – Present</p>
                 </Col>
               </Row>
@@ -53,10 +53,10 @@ function ResumeNew() {
 
             <div>
               <Row>
-                <Col md={8}>
+                <Col md={8} xs={12}>
                   <h5 style={{ fontStyle: "italic", textAlign: "left" }}>Software Engineer Intern</h5>
                 </Col>
-                <Col md={4} style={{ textAlign: "right" }}>
+                <Col md={4} xs={12} className="text-md-right text-left">
                   <p style={{ color: "#7fbacd", fontStyle: "italic" }}>Jan 2025 – May 2025</p>
                 </Col>
               </Row>
@@ -74,23 +74,23 @@ function ResumeNew() {
           {/* Oopar Growth Ventures */}
           <div className="experience-card" style={{ marginBottom: "30px" }}>
             <Row>
-              <Col md={8}>
+              <Col md={8} xs={12}>
                 <h4 style={{ fontWeight: "bold", textAlign: "left" }}>Oopar Growth Ventures Pvt Ltd</h4>
                 <p style={{ color: "#b3b3b3", marginBottom: "5px", textAlign: "left" }}>
                   Angular, NodeJS, JavaScript, Firestore
                 </p>
               </Col>
-              <Col md={4} style={{ textAlign: "right" }}>
+              <Col md={4} xs={12} className="text-md-right text-left">
                 <p style={{ color: "#b3b3b3" }}>Bangalore, Karnataka</p>
               </Col>
             </Row>
 
             <div>
               <Row>
-                <Col md={8}>
+                <Col md={8} xs={12}>
                   <h5 style={{ fontStyle: "italic", textAlign: "left" }}>Software Engineer Intern</h5>
                 </Col>
-                <Col md={4} style={{ textAlign: "right" }}>
+                <Col md={4} xs={12} className="text-md-right text-left">
                   <p style={{ color: "#7fbacd", fontStyle: "italic" }}>April 2024 – June 2024</p>
                 </Col>
               </Row>
