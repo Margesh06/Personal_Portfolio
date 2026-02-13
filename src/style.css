@@ -445,8 +445,6 @@ button:focus {
 /* --------- */
 .project-section {
   position: relative !important;
-  padding-top: 150px !important;
-  padding-bottom: 30px !important;
 }
 
 .project-card {
@@ -601,15 +599,12 @@ button:focus {
 
 .resume-section {
   position: relative !important;
-  padding-top: 110px !important;
-  padding-bottom: 30px !important;
   color: white !important;
 }
 
 .tech-section {
   position: relative !important;
-  padding-top: 110px !important;
-  padding-bottom: 30px !important;
+  padding-top: 60px !important;
   color: white !important;
 }
 
