@@ -595,18 +595,6 @@ button:focus {
     padding-top: 0 !important;
   }
 }
-
-.about-avatar {
-  transition: transform 0.6s ease-in-out, box-shadow 0.4s ease;
-  border-radius: 50%;
-  cursor: pointer;
-}
-
-.about-avatar:hover {
-  transform: rotate(360deg) scale(1.05);
-  box-shadow: 0 0 25px rgba(127, 186, 205, 0.5);
-}
-
 /* --------- */
 /* Resume */
 /* --------- */
