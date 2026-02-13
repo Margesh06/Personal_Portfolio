@@ -1,7 +1,5 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
-
 
 function AboutCard() {
   return (
@@ -9,22 +7,13 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Margesh Modi </span>
-            from <span className="purple"> Ahmedabad, India.</span>
-            <br />
-            I am currently pursuing a degree in Computer Science and Engineering at Pandit Deendayal Energy University.
+            I’m <span className="purple">Margesh Modi</span>, a software engineer with a strong focus on building scalable, high-performance backend systems.
+            I currently work at <span className="purple">Fitpage</span>, where I design and optimize production APIs and PostgreSQL databases for high-traffic applications.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            I’ve led performance-critical improvements that directly impacted user growth and revenue, and I enjoy taking ownership of problems from design to deployment.
+            I’m driven by writing clean, efficient code and building systems that scale reliably in real-world conditions.
           </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Sports
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Travelling
-            </li>
-          </ul>
           <footer className="blockquote-footer"></footer>
         </blockquote>
       </Card.Body>

@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
-import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import myImg from "../../Assets/avatar.svg";
 
@@ -34,11 +33,6 @@ function About() {
             <img src={myImg} className="img-fluid" alt="avatar" />
           </Col>
         </Row>
-        <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
-        </h1>
-
-        <Techstack />        
       </Container>
     </Container>
   );

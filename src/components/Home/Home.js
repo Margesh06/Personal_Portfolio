@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
-import Home2 from "./Home2";
 import Type from "./Type";
 import photo from "./../../Assets/p.png";
 
@@ -46,7 +45,6 @@ function Home() {
           </Row>
         </Container>
       </Container>
-      <Home2 />
     </section>
   );
 }

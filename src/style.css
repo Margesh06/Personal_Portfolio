@@ -447,7 +447,6 @@ button:focus {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
 }
 
 .project-card {
@@ -545,7 +544,6 @@ button:focus {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
   color: white !important;
 }
 
@@ -597,6 +595,18 @@ button:focus {
     padding-top: 0 !important;
   }
 }
+
+.about-avatar {
+  transition: transform 0.6s ease-in-out, box-shadow 0.4s ease;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.about-avatar:hover {
+  transform: rotate(360deg) scale(1.05);
+  box-shadow: 0 0 25px rgba(127, 186, 205, 0.5);
+}
+
 /* --------- */
 /* Resume */
 /* --------- */
@@ -605,8 +615,38 @@ button:focus {
   position: relative !important;
   padding-top: 110px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
   color: white !important;
+}
+
+.tech-section {
+  position: relative !important;
+  padding-top: 110px !important;
+  padding-bottom: 30px !important;
+  color: white !important;
+}
+
+.experience-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  padding: 25px 30px;
+  border-left: 3px solid #7fbacd;
+}
+
+.experience-card h4 {
+  color: #fff;
+  margin-bottom: 2px;
+}
+
+.experience-card h5 {
+  color: #ddd;
+  font-size: 1.1em;
+  margin-bottom: 5px;
+}
+
+.experience-card ul li {
+  padding-bottom: 8px;
+  color: #ccc;
+  font-size: 0.95em;
 }
 
 .resume {
