@@ -45,6 +45,7 @@ function Projects() {
               isBlog={false}
               title="Hostel Leave Management System"
               description="Developed a comprehensive hostel leave management web application with separate panels for students, staff, and admins to streamline the leave process. Students submit leave requests, which are reviewed and approved by wardens, generating a QR code displayed on the student dashboard. The system ensures secure entry and exit through QR code scanning, improving efficiency and security in leave management."
+              ghLink="https://github.com/Margesh06/Leave-Management-System"
             />
           </Col>
         </Row>
